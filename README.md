@@ -12,7 +12,8 @@ there is an option to rescan the directions in case there was an error with the 
 # The Content:
   1. IoTProject: contains the code that is loaded into the ESP.
   2. IoTProjectDebugging: contains the same code in IoTProject but with changes that help to debug the code in case there was an error.
-  3. Examples: contains the base code that helped us reach the final one.
+  3. UNIT TESTS: contains the base code that helped us reach the final one (tests to check if the hardware work correctly).
+  4. User Manual: contains the connections diagram the user manual (how to use the car). 
   
   
 # Libraries used in the code:
