@@ -1,7 +1,6 @@
 # RedCodingCar-IoTProject
 
-# By 
-   Mohammad Shaer, Yosef Break, Seraj Srour.
+By: Mohammad Shaer, Yosef Break, Seraj Srour.
 
 # Description: 
 This Project is about arobotic car that can solve a maze by the help of the user.
