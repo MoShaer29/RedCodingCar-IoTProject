@@ -30,7 +30,6 @@ void scanQR(int* turns, int& numOfTurns){
                 digitalWrite(LEFT_LED, LOW);
             }
             numOfTurns++;
-            Serial.println(QRcode);
         }
     }
 }

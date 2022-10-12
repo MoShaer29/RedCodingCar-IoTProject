@@ -10,7 +10,6 @@ void PIDControl(double &motorSpeedA, double &motorSpeedB, int16_t rightDistance,
     D = Kd * (error - priorError);
     priorError = error;
     double pidResult = P + I + D;
-//    Serial.println("error is: %d ----", error);
 
     motorSpeedB = baseSpeedB + pidResult;
     motorSpeedA = baseSpeedA - pidResult;
