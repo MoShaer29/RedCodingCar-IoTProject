@@ -3,7 +3,7 @@
 By: Mohammad Shaer, Yosef Break, Seraj Srour.
 
 # Description: 
-This Project is about arobotic car that can solve a maze by the help of the user.
+This Project is about a robotic car that can solve a maze by the help of the user.
 The car always drive forward until it is stuck with a junction, then it do the next move according to the data provided by the user.
 The data contains directions that are encoded as a QR code, the car will scan all the directions before entering the maze and save them aside to use when getting stuck in a junction.
 there is an option to rescan the directions in case there was an error with the scan order or the car isn't able to continue as the given data. 
