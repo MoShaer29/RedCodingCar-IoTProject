@@ -3,7 +3,7 @@ void MoveFront(Tb6612fng &motors, double speedA, double speedB, int secs){
 }
 
 void RotateRight(Tb6612fng &motors){
-    motors.drive(baseSpeedA, -1*baseSpeedB, 1395, true);
+    motors.drive(baseSpeedA, -1*baseSpeedB, 1500, true);
     motors.brake();
 }
 

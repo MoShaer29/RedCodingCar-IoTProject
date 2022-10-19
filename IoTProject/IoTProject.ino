@@ -147,7 +147,7 @@ void loop(){
                 if(canContinue(turns[currTurn])){
                     digitalWrite(RIGHT_LED, HIGH);
                     RotateRight(motors);
-                    timeTomove = timeCalucate(2 * previousRightDistance);
+                    timeTomove = timeCalucate(2 * (previousRightDistance+50));
                     digitalWrite(RIGHT_LED, LOW);
                 }
                 else{
@@ -159,7 +159,7 @@ void loop(){
                 if(canContinue(turns[currTurn])){
                     digitalWrite(LEFT_LED, HIGH);
                     RotateLeft(motors);
-                    timeTomove = timeCalucate(2 * previousLeftDistance);
+                    timeTomove = timeCalucate(2 * (previousLeftDistance+50));
                     digitalWrite(LEFT_LED, LOW);
                 }
                 else{
@@ -168,7 +168,8 @@ void loop(){
                 }
             }
             else{
-                if(frontDistance < 500){
+                if(frontDistance < 200
+                ){
                     askForReset();
                     return;
                 }
@@ -181,7 +182,7 @@ void loop(){
                 }
             }
             if((previousRightDistance > 250) || (previousLeftDistance > 250)){
-                timeTomove = timeCalucate(2 * 67);
+                timeTomove = timeCalucate(2 * 77);
             }
 
             digitalWrite(FRONT_LED, HIGH);

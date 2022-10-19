@@ -10,7 +10,7 @@
 #define TURN_RIGHT 0
 #define FINISH 3
 #define CAR_BODY 19.5
-#define MAX_TURNS 20
+#define MAX_TURNS 30
 #define SHORT_PRESS_TIME 3000
 
 
