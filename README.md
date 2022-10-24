@@ -20,3 +20,7 @@ there is an option to rescan the directions in case there was an error with the 
 # Libraries used in the code:
   1. Adafruit_VL53L1X (version 3.1)
   2. TB6612FNG (version 1.0.2): https://github.com/vincasmiliunas/ESP32-Arduino-TB6612FNG
+  
+
+# Links: 
+  Final video: https://youtu.be/9UMYAqRLEuw
